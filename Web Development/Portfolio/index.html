@@ -7,14 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <link rel="shortcut icon" href="assets/2.png" type="image/x-icon">
 </head>
 
 <body>
-    <div class="nav">
+    <div class="nav" id="nav">
         <div class="items">
             <a href="#div1">
-                <div class="home" onclick="">
+                <div class="home">
                     Home
                 </div>
             </a>
@@ -32,6 +33,10 @@
                 <div class="contact">
                     Contact me</div>
             </a>
+        </div>
+        <div class="state">
+            <div id="dark" onclick="changeToDark()">Dark</div>
+            <div id="light" onclick="changeToLight()">Light</div>
         </div>
     </div>
     <div class="div1" id="div1">
@@ -141,11 +146,21 @@
     <div class="footer" id="div4">
         <p>Contact Me</p><br><br>
         <div class="contacts">
-            <div class="linkedin"></div>
-            <div class="mail"></div>
-            <div class="whatsup"></div>
-            <div class="facebook"></div>
-            <div class="instagram"></div>
+            <a href="https://www.linkedin.com/" target="_blank">
+                <div class="linkedin"></div>
+            </a>
+            <a href="https://www.gmail.com/" target="_blank">
+                <div class="mail"></div>
+            </a>
+            <a href="https://web.whatsup.com/" target="_blank">
+                <div class="whatsup"></div>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+                <div class="facebook"></div>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <div class="instagram"></div>
+            </a>
         </div>
     </div>
 </body>
